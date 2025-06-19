@@ -1,0 +1,23 @@
+{
+  "name": "localizer-docs",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Documentation site for type-safe localization, formatting and translation library",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/124c4a/localizer-docs.git"
+  },
+  "license": "CC-BY-NC-4.0",
+  "devDependencies": {
+    "@microsoft/api-documenter": "^7.26.27",
+    "eslint": "^9.29.0",
+    "prettier": "^3.5.3",
+    "vitepress": "^1.6.3",
+    "vue": "^3.5.17"
+  }
+}
